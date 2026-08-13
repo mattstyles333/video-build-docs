@@ -9,13 +9,14 @@ Edit videos with **Grok** (or any coding agent). Drop footage in a folder, confi
 ## What it does
 
 - **Indexes the whole bin once** — video, stills, and audio — into `bin.md` plus contact-sheet thumbs
-- **Cuts out filler words** and dead space between takes
-- **Drafts a strategy** with Grok, then waits for your OK before touching the cut
-- **Fills coverage gaps** with Grok Imagine, seeded from bin refs
-- **Speaks** via Grok TTS as a mixable voiceover bed
+- **Cuts out filler words** (`umm`, `uh`, false starts) and dead space between takes
+- **Drafts a strategy** with Grok from the bin + packed speech, then waits for your OK
+- **Fills coverage gaps** with Grok Imagine, seeded from bin refs and looks
+- **Speaks** via Grok TTS as a mixable voiceover bed (or Imagine `--voice` on-screen)
 - **Loops music beds** to the cut and ducks them under speech
 - **Auto color grades** every segment — presets or any custom ffmpeg chain
-- **Burns subtitles** in your style, set per-EDL
+- **30ms audio fades** at every cut so you never hear a pop
+- **Burns subtitles** in your style — 2-word UPPERCASE by default, set per-EDL
 - **Composites stills, Ken Burns, overlays, and fades** from the EDL
 - **Generates animation overlays** via HyperFrames, Remotion, Manim, or PIL
 - **Self-evaluates** every cut boundary before you see the preview
@@ -26,12 +27,12 @@ Edit videos with **Grok** (or any coding agent). Drop footage in a folder, confi
 
 ```bash
 cd /path/to/your/footage
-grok   # or claude, codex, ...
+grok   # or claude, codex, hermes, ...
 ```
 
 > edit these into a launch video
 
-Read the [guide](/guide/readme) for the full picture, the [skill reference](/guide/skill) for the 15 hard production rules, or the [install guide](/guide/install) to set it up.
+Read the [guide](/guide/readme) for the full picture, the [install guide](/guide/install) to set it up, or the [skill reference](/guide/skill) for the 15 hard production rules.
 
 <div class="tip custom-block">
   <p class="custom-block-title">How it reads video</p>
