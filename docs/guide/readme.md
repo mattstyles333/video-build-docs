@@ -116,4 +116,4 @@ The self-eval loop runs `timeline_view` on the _rendered output_ at every cut bo
 4. **Zero assumptions about content type.** Look, ask, then edit.
 5. **Hard rules, artistic freedom elsewhere.** Production-correctness is non-negotiable. Taste isn't.
 
-See [`SKILL.md`(/guide/skill) for the full production rules and editing craft.
+See [`SKILL.md`](/guide/skill) for the full production rules and editing craft.

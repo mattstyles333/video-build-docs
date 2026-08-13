@@ -10,12 +10,16 @@ Edit videos with **Grok** (or any coding agent). Drop footage in a folder, confi
 
 - **Indexes the whole bin once** — video, stills, and audio — into `bin.md` plus contact-sheet thumbs
 - **Cuts out filler words** and dead space between takes
-- **Confirms a strategy file** before touching the cut
+- **Drafts a strategy** with Grok, then waits for your OK before touching the cut
 - **Fills coverage gaps** with Grok Imagine, seeded from bin refs
 - **Speaks** via Grok TTS as a mixable voiceover bed
+- **Loops music beds** to the cut and ducks them under speech
+- **Auto color grades** every segment — presets or any custom ffmpeg chain
 - **Burns subtitles** in your style, set per-EDL
 - **Composites stills, Ken Burns, overlays, and fades** from the EDL
+- **Generates animation overlays** via HyperFrames, Remotion, Manim, or PIL
 - **Self-evaluates** every cut boundary before you see the preview
+- **Remembers the project** across sessions in `project.md`
 - **Snapshots the edit program** so you can restore a cut or one beat
 
 ## Quick start
