@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="static/video-build-banner.png" alt="video-build" width="100%">
+  <img src="/video-build-banner.png" alt="video-build" width="100%">
 </p>
 
 # video-build
@@ -78,7 +78,7 @@ $EDITOR .env                    # XAI_API_KEY=... and/or ELEVENLABS_API_KEY=...
 The LLM does not dump every frame. It **reads** the cut — through three compact layers.
 
 <p align="center">
-  <img src="static/timeline-view.svg" alt="timeline_view composite — filmstrip + speaker track + waveform + word labels + silence-gap cut candidates" width="100%">
+  <img src="/timeline-view.svg" alt="timeline_view composite — filmstrip + speaker track + waveform + word labels + silence-gap cut candidates" width="100%">
 </p>
 
 **Layer 1 — Asset bin (always loaded).** One pass over the working directory catalogs every video, still, and audio file into `bin.md` plus thumbs. Looks are written once. This is how silent B-roll, product stills, and generated plates stay visible.
