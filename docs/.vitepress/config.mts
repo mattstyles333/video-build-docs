@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'video-build',
   description:
-    'Edit any video by conversation. Inventory a folder, confirm a strategy, cut, grade, overlay, and burn subtitles — a skill for Grok and other coding agents.',
+    'Edit videos with Grok or any coding agent. Inventory a folder, confirm a strategy, cut, grade, overlay, and burn subtitles — plus Imagine plates, TTS, and a rebuildable edit program.',
   base: '/',
   cleanUrls: true,
   head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
